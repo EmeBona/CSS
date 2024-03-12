@@ -1,0 +1,43 @@
+body, h1, p{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+div {
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 331px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+img {
+    width: 100%;
+}
+
+header div{
+    padding: 20px;
+    width: 270px;
+    border: 0;
+}
+
+ul{
+    padding-left: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+footer{
+    padding: 10px;
+}
