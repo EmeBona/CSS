@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid white;
+    padding: 0 10px;
+    background-color: #232529;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 58px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+
+h1{
+    font-weight: 100;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    gap: 30px;
+    color: #9c9d9e;
+}
+div{
+    color: white;
+    
+}
+
+#dropdown{
+    background-color: #232529;
+    color: inherit;
+    font-family: inherit;
+}
+
+:disabled{
+    all: initial;
+    color: #595b5f;
+    font-family: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button{
+    color: green;
+    border: 1px solid green;
+    background-color: #232529;
+    border-radius: 5px;
+}
+
+.hamburguer-menu{
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.line{
+    width: 20px;
+    height: 2px;
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .nav-container{
+        display: none;
+    }
+    .hamburguer-menu{
+        display: flex;
+    }
+}
