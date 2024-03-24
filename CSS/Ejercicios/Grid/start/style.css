@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px gray;
+}
+.total{
+    display: flex;
+    background-color: #394348;
+    color: white;
+    height: 50px;
+    font-size: 2em;
+    justify-content: right;
+    align-items: center;
+    padding-right: 10px;
+}
+.keybinds{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+}
+.operator_plus{
+    background-color: #cbd7df;
+    border-bottom: 1px solid #7b92a3;
+    border-right: 1px solid #7b92a3;
+}
+.operator_minus{
+    background-color: #cbd7df;
+    border-bottom: 1px solid #7b92a3;
+    border-right: 1px solid #7b92a3;
+}
+.operator_multiplier{
+    background-color: #cbd7df;
+    border-bottom: 1px solid #7b92a3;
+    border-right: 1px solid #7b92a3;
+}
+.operator_divider{
+    background-color: #cbd7df;
+    border-bottom: 1px solid #7b92a3;
+}
+.equal{
+    background-color: #ff656e;
+    grid-row: span 4;
+    border-left: 1px solid #7b92a3;
+}
+button{
+    padding: 10px;
+    font-size: 2em;
+    border: none;
+}
+
+.seven{
+    border-right: 1px solid #7b92a3;
+    border-bottom: 1px solid #7b92a3;
+}
+.eight{
+    border-right: 1px solid #7b92a3;
+    border-bottom: 1px solid #7b92a3;
+}
+.nine{
+    border-bottom: 1px solid #7b92a3;
+}
+.four{
+    border-right: 1px solid #7b92a3;
+    border-bottom: 1px solid #7b92a3;
+}
+.five{
+    border-bottom: 1px solid #7b92a3;
+    border-right: 1px solid #7b92a3;
+}
+.six{
+    border-bottom: 1px solid #7b92a3;
+}
+.one{
+    border-bottom: 1px solid #7b92a3;
+    border-right: 1px solid #7b92a3;
+}
+.two{
+    border-bottom: 1px solid #7b92a3;
+    border-right: 1px solid #7b92a3;
+}
+.three{
+    border-bottom: 1px solid #7b92a3;
+}
+.zero{
+    border-right: 1px solid #7b92a3;
+}
+.dot{
+    border-right: 1px solid #7b92a3;
+}
